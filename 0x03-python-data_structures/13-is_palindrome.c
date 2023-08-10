@@ -23,7 +23,7 @@ int is_palindrome(listint_t **head)
 	}
 
 	digit = counter;
-	while (indx < counter / 2)
+	while (indx < ((counter >> 1)))
 	{
 		nodecheck = *head;
 		num = 1;
