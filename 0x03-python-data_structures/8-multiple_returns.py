@@ -10,4 +10,4 @@ def multiple_returns(sentence):
 
     if str_len >= 1:
         new_tup = (str_len, sentence[0])
-    return(new_tup)
+    return new_tup
