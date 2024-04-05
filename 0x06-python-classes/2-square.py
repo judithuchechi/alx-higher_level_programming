@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 '''2-square.py: Defines size as an int and also >= 0'''
 
+
 class Square:
+    ''' creates Square type '''
     def __init__(self, size=0):
         """
         Initialize a square with a given size.
