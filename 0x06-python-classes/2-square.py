@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+'''2-square.py: Defines size as an int and also >= 0'''
 
 class Square:
     def __init__(self, size=0):
