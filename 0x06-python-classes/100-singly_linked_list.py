@@ -3,6 +3,7 @@
 
 
 class Node:
+    ''' creates Square type '''
     def __init__(self, data, next_node=None):
         """
         Initialize a node with data and next_node.
