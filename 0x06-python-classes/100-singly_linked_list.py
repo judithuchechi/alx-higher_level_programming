@@ -41,6 +41,7 @@ class Node:
 
 
 class SinglyLinkedList:
+    ''' creates a class of type singlylinked list '''
     def __init__(self):
         """Initialize a singly linked list."""
         self.head = None
