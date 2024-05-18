@@ -57,17 +57,17 @@ class SinglyLinkedList:
             new_node.next_node = self.head
             self.head = new_node
         else:
-            current = self.head
-            while current.next_node is not None and current.next_node.data < value:
-                current = current.next_node
-            new_node.next_node = current.next_node
-            current.next_node = new_node
+            now = self.head
+            while now.next_node is not None and now.next_node.data < value:
+                now = now.next_node
+            new_node.next_node = now.next_node
+            now.next_node = new_node
 
     def __str__(self):
         """Print the entire list in stdout."""
         result = ""
-        current = self.head
-        while current:
-            result += str(current.data) + "\n"
-            current = current.next_node
+        now = self.head
+        while now:
+            result += str(now.data) + "\n"
+            now = now.next_node
         return result.rstrip()
