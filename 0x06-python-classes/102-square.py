@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """This module contains a class Square"""
 
+
 class Square:
     """This is a geometry class"""
     def __init__(self, size=0):
@@ -60,4 +61,3 @@ class Square:
         if isinstance(other, Square):
             return self.area() <= other.area()
         return NotImplemented
-
