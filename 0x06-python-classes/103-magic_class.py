@@ -3,6 +3,7 @@
 import dis
 import math
 
+""" MagicClass: function that works as the """
 class MagicClass:
     def __init__(self, radius=0):
         self.__radius = 0  # Corresponds to setting __radius to 0 initially
