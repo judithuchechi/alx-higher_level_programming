@@ -3,6 +3,7 @@
 This module contains an add_integer function
 """
 
+
 def add_integer(a, b=98):
     """
     Add two numbers and return the result.
@@ -21,10 +22,10 @@ def add_integer(a, b=98):
     0
     """
 
-    if not isinstance(a, bool) and isinstance(a, int) or isinstance(a, float):
-        if not isinstance(b, bool) and isinstance(b, int) or isinstance(b, float):
+    if type(a) is int or type(a) is float:
+        if type(b) is int or type(b) is float:
             return int(a) + int(b)
         else:
-            raise TypeError("b must be an integer")
+            raise TypeError('b must be an integer')
     else:
-        raise TypeError("a must be an integer")
+        raise TypeError('a must be an integer')
