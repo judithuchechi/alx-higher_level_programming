@@ -8,6 +8,7 @@
 
 
 def text_indentation(text):
+    ''' functions break given text into segments with signs'''
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
